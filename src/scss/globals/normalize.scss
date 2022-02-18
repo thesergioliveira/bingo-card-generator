@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Oswald;
+  line-height: 1.3;
+  margin: 0px;
+  padding: 0px;
+}
