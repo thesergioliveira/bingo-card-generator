@@ -1,9 +1,39 @@
 import './scss/style.scss';
+import Card from './card/bingo-card';
 
 function App() {
   return (
     <div className="App">
-      <header className="header title">Bingo, this is rendering live!</header>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
     </div>
   );
 }
