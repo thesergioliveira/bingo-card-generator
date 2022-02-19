@@ -1,0 +1,21 @@
+.table-container {
+  height: 95%;
+  margin: 2.5% 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 1%;
+  justify-self: center;
+  padding: 5% auto;
+  //   border: 2px solid yellow;
+  td {
+    align-content: center;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: #ae478f;
+    padding: 10% 10%;
+    width: 20%;
+    height: 20%;
+    align-self: center;
+  }
+}
