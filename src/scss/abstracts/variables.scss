@@ -1,5 +1,8 @@
 :root {
-  --font: oswald, Arial, Helvetica, sans-serif;
+  --font-numbers: oswald, Arial, Helvetica, sans-serif;
+  --font-letter: staatliches, Arial, Helvetica, sans-serif;
+  --font-indie: indie, Arial, Helvetica, sans-serif;
+  --font-balsamiq: balsamiq, Arial, Helvetica, sans-serif;
 }
 
 $weight: (
@@ -12,42 +15,29 @@ $weight: (
 );
 
 @font-face {
-  font-family: 'oswald';
-  src: url('../../fonts/Oswald-SemiBold.ttf');
-  font-weight: 600;
-  font-style: bold;
-}
-
-@font-face {
-  font-family: 'oswald';
-  src: url('../../fonts/Oswald-Bold.ttf');
-  font-weight: 700;
-  font-style: bold;
-}
-
-@font-face {
-  font-family: 'oswald';
-  src: url('../../fonts/Oswald-ExtraLight.ttf');
-  font-weight: 200;
+  font-family: 'redressed';
+  src: url('../../fonts/Redressed-Regular.ttf');
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'oswald';
-  src: url('../../fonts/Oswald-Light.ttf');
-  font-weight: 300;
+  font-family: 'staatliches';
+  src: url('../../fonts/Staatliches-Regular.ttf');
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'oswald';
-  src: url('../../fonts/Oswald-Medium.ttf');
-  font-weight: 500;
+  font-family: 'indie';
+  src: url('../../fonts/IndieFlower-Regular.ttf');
+  font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'oswald';
-  src: url('../../fonts/Oswald-Regular.ttf');
+  font-family: 'balsamiq';
+  src: url('../../fonts/BalsamiqSans-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }

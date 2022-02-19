@@ -6,16 +6,19 @@
   row-gap: 1%;
   justify-self: center;
   padding: 5% auto;
-  //   border: 2px solid yellow;
+
   td {
-    align-content: center;
+    // align-content: center;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 100px;
+    box-shadow: 3px 6px 15px 4px rgba(0, 0, 0, 0.562);
     font-size: 1rem;
-    color: #ae478f;
+    font-family: --font-balsamiq;
+    font-weight: 700;
+    color: rgb(184, 88, 155);
     padding: 10% 10%;
-    width: 20%;
-    height: 20%;
-    align-self: center;
+    width: 60%;
+    height: 60%;
+    justify-self: center;
   }
 }
