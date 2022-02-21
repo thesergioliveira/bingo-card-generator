@@ -12,13 +12,13 @@ function Card() {
       <div className="content-wrap">
         <div className="card-header">
           <h1>CHÁ DE BEBÊ</h1>
-          <span>Bingo</span>
+          <span>da Elisa</span>
         </div>
         <div className="number-container">
           <Numbers />
         </div>
         <div className="card-footer">
-          <span>BABY ELISA</span>
+          <span>bingo</span>
         </div>
       </div>
     </div>

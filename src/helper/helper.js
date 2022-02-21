@@ -1,12 +1,14 @@
-const generateNumbers = (quantity = 25) => {
+const generateNumbers = (quantity = 19) => {
   let numbers = [];
-  for (let i = 1; i <= quantity; i++) {
+  while (numbers.length <= quantity) {
     let number = Math.floor(Math.random() * 101);
-    numbers.push(number);
+    if (!numbers.includes(number)) {
+      numbers.push(number);
+    }
     number = 0;
   }
   return numbers;
 };
-// console.log(generateNumbers());
+console.log(generateNumbers());
 
 export default generateNumbers;

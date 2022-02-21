@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ranchers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Indie+Flower&family=Ranchers&display=swap');
+
 :root {
-  --font-numbers: oswald, Arial, Helvetica, sans-serif;
-  --font-letter: staatliches, Arial, Helvetica, sans-serif;
-  --font-indie: indie, Arial, Helvetica, sans-serif;
-  --font-balsamiq: balsamiq, Arial, Helvetica, sans-serif;
+  // --font-numbers: oswald, Arial, Helvetica, sans-serif;
+  --font-letter: 'Ranchers';
+  --font-indie: 'Indie Flower';
+  --font-bingo: 'Bubbler One';
 }
 
 $weight: (
@@ -28,16 +34,9 @@ $weight: (
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'indie';
-  src: url('../../fonts/IndieFlower-Regular.ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'balsamiq';
-  src: url('../../fonts/BalsamiqSans-Regular.ttf');
-  font-weight: 400;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'indie';
+//   src: url('../../fonts/IndieFlower-Regular.ttf');
+//   font-weight: 400;
+//   font-style: normal;
+// }
